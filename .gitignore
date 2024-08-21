@@ -1,0 +1,3 @@
+.venv/
+src/credentials.py
+src/__pycache__/

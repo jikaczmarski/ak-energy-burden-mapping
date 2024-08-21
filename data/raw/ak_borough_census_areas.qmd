@@ -1,0 +1,32 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.34.9-Prizren">
+  <identifier>https://maps.commerce.alaska.gov/server/rest/services/Community_Related/Community_Locations_and_Boundaries/MapServer/3</identifier>
+  <parentidentifier></parentidentifier>
+  <language></language>
+  <type>dataset</type>
+  <title>Boroughs and Census Areas</title>
+  <abstract>&lt;DIV STYLE="text-align:Left;">&lt;DIV>&lt;DIV>&lt;P>&lt;SPAN>Census Areas 2016 Includes 2010 census data, also includes updated Petersburg Borough Boundary and Wade Hampton name Change to Kusilvak Census Area.&lt;/SPAN>&lt;/P>&lt;P>&lt;SPAN>As of July 2021 adopted as master Feature Class of ongoing rework to get a comprehensive State boundary set for these entities. Census data fields deleted at this time as they are available elsewhere&lt;/SPAN>&lt;/P>&lt;P>&lt;SPAN>As of Nov 2022 New FC name and attributes names to reflect better usage - New in GISS CDO as Borough_Census_Area Master - originally in GISP CDO only as Community Boroughs&lt;/SPAN>&lt;/P>&lt;P>&lt;SPAN>Designed to replace legacy FCs:&lt;/SPAN>&lt;SPAN>GISS CDO Boro_CensusAreas&lt;/SPAN>&lt;SPAN>GISS CDO Community_Master_Boroughs&lt;/SPAN>&lt;SPAN>GISS CDO Community_Master_BoroughsCensusAreas&lt;/SPAN>&lt;/P>&lt;P>&lt;SPAN />&lt;/P>&lt;P>&lt;SPAN>Though technically boundaries of Census Areas are maintained by US Census - but if Alaska DCRA Local Boundary Commission Borough boundaries are adjusted - they impact adjacent Census Areas.&lt;/SPAN>&lt;/P>&lt;/DIV>&lt;/DIV>&lt;/DIV></abstract>
+  <links>
+    <link format="" mimeType="" size="" url="https://maps.commerce.alaska.gov/server/rest/services/Community_Related/Community_Locations_and_Boundaries/MapServer/3" description="" name="Source" type="WWW:LINK"/>
+  </links>
+  <dates/>
+  <fees></fees>
+  <rights>SOA DCCED DCRA, US Census</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt></wkt>
+      <proj4>+proj=aea +lat_0=50 +lon_0=-154 +lat_1=55 +lat_2=65 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs</proj4>
+      <srsid>1296</srsid>
+      <srid>3338</srid>
+      <authid>EPSG:3338</authid>
+      <description>NAD83 / Alaska Albers</description>
+      <projectionacronym>aea</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial dimensions="2" maxy="2383909.66009999997913837" crs="EPSG:3338" minx="-2175729.73159999959170818" maxz="nan" miny="404545.10789999924600124" minz="nan" maxx="1493083.62069999985396862"/>
+  </extent>
+</qgis>
